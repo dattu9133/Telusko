@@ -19,7 +19,7 @@ The memoization method is an optimization of the recursive method using memoizat
 
 ## Output for 5 rows as follows
 
-Enter the no.of rows:
+```Enter the no.of rows:
 5
 
 Pascal Triangle for 5 rows is
@@ -28,4 +28,4 @@ Pascal Triangle for 5 rows is
    1 1 
   1 2 1 
  1 3 3 1 
-1 4 6 4 1 
+1 4 6 4 1 ```
