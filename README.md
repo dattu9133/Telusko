@@ -1,4 +1,4 @@
-### DAY-1
+# DAY-1
 ## Problem Statement
 Pascal's Triangle is a triangular array of numbers in which each number is the sum of the two numbers directly above it. The triangle starts with a 1 at the top, and each subsequent row is constructed by adding adjacent values from the row above.
 
