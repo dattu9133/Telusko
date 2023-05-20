@@ -15,7 +15,7 @@ The iterative method constructs Pascal's Triangle by using nested loops. It crea
 The recursive method calculates the value of each element in Pascal's Triangle using recursion. The base cases are when the element is at the edge i.e the first and last element's value is 1 of that row. Otherwise, the element's value is recursively calculated by adding the two elements above it by using  'pascalRecursive()' method.
 
 ### 3. Memoization Method
-The memoization method is an optimization of the recursive method using memoization concept of Dynamic Programming. It stores the calculated values in a map with index as key in form of String to avoid unwanted calculations for the same problem. Before calculating the value of an element, it checks if it has already been calculated and stored in the map. If the value exists, it is retrieved directly. Otherwise, the value is calculated recursively, stored in the map, and then returned. The triangle is printed with proper left spacing.
+The memoization method is an optimization of the recursive method using memoization concept of Dynamic Programming. It stores the calculated values in a map with index as key in form of String and the value of that index as value of key to avoid unwanted calculations for the same problem. Before calculating the value of an element, it checks if it has already been calculated and stored in the map. If the value exists, it is retrieved directly. Otherwise, the value is calculated recursively, stored in the map, and then returned. The triangle is printed with proper left spacing.
 
 ## Output for 5 rows as follows
 ```
