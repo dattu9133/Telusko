@@ -18,8 +18,8 @@ The recursive method calculates the value of each element in Pascal's Triangle u
 The memoization method is an optimization of the recursive method using memoization concept of Dynamic Programming. It stores the calculated values in a map with index as key in form of String to avoid unwanted calculations for the same problem. Before calculating the value of an element, it checks if it has already been calculated and stored in the map. If the value exists, it is retrieved directly. Otherwise, the value is calculated recursively, stored in the map, and then returned. The triangle is printed with proper left spacing.
 
 ## Output for 5 rows as follows
-
-```Enter the no.of rows:
+```
+Enter the no.of rows:
 5
 
 Pascal Triangle for 5 rows is
@@ -28,4 +28,4 @@ Pascal Triangle for 5 rows is
    1 1 
   1 2 1 
  1 3 3 1 
-1 4 6 4 1 ```
+1 4 6 4 1 
